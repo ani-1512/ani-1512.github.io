@@ -15,6 +15,8 @@ function showImage(){
 }
 
 function play(){
+	var audio = document.getElementById("audio");
+    audio.play();
 	if(t == 0){
 		myImage.setAttribute("src", "");
 		myTxt.innerHTML = "";
